@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  */
 public class Ciclos {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
     int tabla;
     
     tabla = Integer.parseInt(JOptionPane.showInputDialog("Que tabla desea saber? "));
@@ -17,7 +17,7 @@ public class Ciclos {
    
     
     for (int i=1; i<11; i++){
-        System.out.print("\n La tabla del " + tabla + " por " + i + " Da " + (i*tabla) );
+        System.out.print("\n"  + i  +   " X " + tabla + ": "  + (i*tabla) );
         
     }
 
